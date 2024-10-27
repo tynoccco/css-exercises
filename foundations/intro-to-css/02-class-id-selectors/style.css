@@ -1,0 +1,23 @@
+.odd-lines {
+    background-color: rgb(255, 171, 185);
+    font-family: Verdana, "Dejavu Sans", sans-serif;
+}
+
+#title {
+    color: rgb(15, 15, 231);
+    font-size: 36px;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+/*
+    since the elements 'Number 3' and 'Number 4'
+    in the HTML file share the same font size, we reused
+    the 'adjust-font-size' class above to help reduce
+    duplicate code.
+*/
+#four {
+    background-color: rgb(152, 237, 152);
+    font-weight: bold;
+}
